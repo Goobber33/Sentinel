@@ -1,0 +1,42 @@
+---
+description: Sentinel engineering and security standards
+alwaysApply: true
+---
+
+# Sentinel Project Rules
+
+You are assisting with Sentinel, a full-stack
+cybersecurity monitoring platform.
+
+## Architecture
+- Frontend: Next.js, React, TypeScript
+- Backend: Python, FastAPI
+- Database: PostgreSQL
+- Infrastructure: Docker Compose
+
+## Engineering Standards
+- Write readable, maintainable code.
+- Use TypeScript strict mode.
+- Use Python type hints.
+- Keep business logic separate from API routes.
+- Use clear naming conventions.
+- Write tests for important functionality.
+- Prefer simple solutions over unnecessary complexity.
+
+## Security Standards
+- Validate all incoming API data.
+- Never hardcode secrets or credentials.
+- Use parameterized database queries.
+- Enforce authentication and authorization.
+- Never log passwords or access tokens.
+- Apply least-privilege principles.
+- Treat security event data as untrusted input.
+- Avoid exposing detailed internal errors to clients.
+
+## Development Workflow
+- Explain architectural decisions.
+- Make small, focused changes.
+- Do not introduce dependencies unnecessarily.
+- Include testing instructions.
+- Do not modify unrelated files.
+- Ask before making major architectural changes.
